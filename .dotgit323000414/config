@@ -1,0 +1,9 @@
+[core]
+	bare = false
+	worktree = /
+[remote "origin"]
+	url = https://github.com/riteshkarvaloc/notebook-test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
