@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Create Traing Job in DKube
       run: |
-        echo {{ secrets.GITHUB_TOKEN }}
+        echo ${{ secrets.GITHUB_TOKEN }}
        # curl --request POST \
        # --url https://18.236.126.102:32222/dkube/v2/users/ocdkube/jobs/ \
        # --header "authorization: ${{secrets.JWT_TOKEN}}" \
